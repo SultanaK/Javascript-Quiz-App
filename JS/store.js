@@ -37,24 +37,24 @@ const myQuestions = [
             c: "None of the above",
             d: "All of the above"
         },
-        correctAnswer: "d"
+        correctAnswer: "a"
     },
     {
         question: "How do you create a function in JavaScript?",
         answers: {
             a: "Function:myfunction",
             b: "function myfunction()",
-            c: "Both",
-            d: "All of the above"
+            c: " Both a and b ",
+            d: " None of the above"
         },
         correctAnswer: "b"
     },
     {
         question: "How do you call a function named 'myFunction'?",
         answers: {
-            a: "call function myfunction",
-            b: "call myfunction",
-            c: "myFunction()",
+            a: " call function myfunction",
+            b: " call myfunction",
+            c: " myFunction() ",
             d: "Both a and b"
         },
         correctAnswer: "c"
@@ -70,24 +70,24 @@ const myQuestions = [
         correctAnswer: "c"
     },
     {
-        question: "What are media queries?",
+        question: "How to write an IF statement for executing some code if  i  is NOT equal to 5?",
         answers: {
-            a: "The javascript method that allows multimedia content to be played in an HTML document",
-            b: "An element that allows video to be properly displayed in documents that use HTML and CSS",
-            c: "A module that allows web content to be displayed more readily on different size screens",
+            a: " if i =! 5 then ",
+            b: " if (i<>5)",
+            c: " if (i != 5)",
             d: "All of the above"
         },
         correctAnswer: "c"
     },
     {
-        question: "Why are grids valuable?",
+        question: " What is the correct way to write a JavaScript array?",
         answers: {
-            a: "They can handle both columns and rows for HTML documents",
-            b: "They are an less complicated way to create 2-dimensional styling for webpages",
-            c: "They allow the developer to change the layout without interfering with the source order",
+            a: " var color = red, blue, green ",
+            b: " var color = [ red, blue, green] ",
+            c: " let color = ' red, blue, green ' ",
             d: "All of the above"
         },
-        correctAnswer: "d"
+        correctAnswer: "b"
     },
     {
         question: "What is a function?",
@@ -100,34 +100,34 @@ const myQuestions = [
         correctAnswer: "a"
     },
     {
-        question: "What is DOM manipulation?",
+        question: "How does a WHILE loop start?",
         answers: {
-            a: "A Standard Object Model for HTML",
-            b: "A programming interface for HTML",
-            c: "A standard for how to get, change, add, or delete HTML elements",
-            d: "All of the above"
+            a: " while i = 1 to 10",
+            b: " while ( i<= 10, i++)",
+            c: "while(i > 10)",
+            d: "while (i <= 10)"
         },
         correctAnswer: "d"
     },
     {
-        question: "What is an event listener?",
+        question: "How does a FOR loop start?",
         answers: {
-            a: "A procedure or function in a computer program that waits for an event to occur",
-            b: "A console screen that registers program functions and errors",
-            c: "A value that you can set or get",
-            d: "An action that you can perform on an object"
+            a: "for( i =0 ; i<=5; i++)",
+            b: "for (i=1)",
+            c: "for(i =0, i< 5, i++)",
+            d: "None of above"
         },
         correctAnswer: "a"
     },
     {
-        question: "What is spaghetti code? How can you avoid it, and why should you? (Lesson 3.2)",
+        question: "How can you add a comment in a JavaScript?",
         answers: {
-            a: "Code that goes on for more than one line",
-            b: "Code with a tightly controlled structure",
-            c: "Burdensome, unwieldy code that is difficult to read and maintain",
-            d: "Well-structured classes that are easy to understand in isolation, but difficult to understand as a whole"
+            a: " 'message' ",
+            b: " // message",
+            c: " <!--- message -----!> ",
+            d: " All of above "
         },
-        correctAnswer: "c"
+        correctAnswer: "b"
     }
 
 ];
