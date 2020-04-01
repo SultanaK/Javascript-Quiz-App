@@ -28,4 +28,5 @@ Quiz  App has :
 
 
 # Live link:
- https://sultanak.github.io/Quiz-App/
+  https://sultanak.github.io/Javascript-Quiz-App/
+
