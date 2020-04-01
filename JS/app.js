@@ -33,7 +33,7 @@ function startQuiz() {
 
 function loadCorrectFeedback() {
     return `<p>That is correct! Way to go!</p>
-  <button class = "submitNext" type="submit">Next Question</button>
+  <button class = "submitNext" type="submit"> Next >> </button>
     
   <p>Question ${currentQuestion + 1} of ${myQuestions.length}</p>
         <p>${answeredCorrect} of ${myQuestions.length} correct</p>`;
