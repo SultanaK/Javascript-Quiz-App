@@ -1,5 +1,4 @@
 body {
-    /* background: lightseagreen; */
     background-image: url('../images/code2.png');
     background-repeat: repeat-y ;
     background-attachment: fixed;
@@ -43,15 +42,12 @@ fieldset {
 
 button[type="submit"] {
     display: block;
-    height: 200px;
-    width: 100px;
+    height: 250px;
+    width: 150px;
     color: white;
-    /* max-width: 75%; */
-    /* height: 500px; */
     font-size: 18px;
     text-align: left;
     padding: 15px;
-    /* border: 3px solid rgb(147, 64, 224); */
     border-radius: 3px;
     background: white;
     margin: 10px auto 20px;
@@ -76,8 +72,8 @@ button[type="submit"] {
 button[type="previous"],
 button[type="next"] {
     height: auto;
-    font-size: 22px;
-    font-weight: 250;
+    font-size: 20px;
+    font-weight: 240;
     text-align: center;
     padding: 15px;
 }
