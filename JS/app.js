@@ -41,13 +41,14 @@ function loadCorrectFeedback() {
 
 function loadIncorrectFeedback() {
     return `<p>I'm sorry that is incorrect. But keep trying!</p>
+    <p> Correct answer is  ${ myQuestions[currentQuestion].correctAnswerResult} </p>
    <button class = "submitNext" type="submit"> Next </button>
    
    <p>Question ${currentQuestion + 1} of ${myQuestions.length}</p>
         <p>${answeredCorrect} of ${myQuestions.length} correct</p>`;
 };
 function loadInput() {
-    return `<p>Please select an option. You can't escape a question. "</p>
+    return `<p>Please select an option. You can't escape a question. </p>
    <button class = "submitNext" type="submit"> Next </button>
    
    <p>Question ${currentQuestion + 1} of ${myQuestions.length}</p>

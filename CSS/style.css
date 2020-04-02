@@ -2,7 +2,7 @@ body {
     background-image: url('../images/code2.png');
     background-repeat: repeat-y ;
     background-attachment: fixed;
-     background-size: 100%;   
+    background-size: 100%;   
     font-family: "Roboto", helvetica, sans-serif;
     padding: 60px 0 0;
     margin: 0;
@@ -42,15 +42,15 @@ fieldset {
 
 button[type="submit"] {
     display: block;
-    height: 250px;
+    height: 400px;
     width: 150px;
     color: white;
     font-size: 18px;
     text-align: left;
     padding: 15px;
-    border-radius: 3px;
+    border-radius: 2px;
     background: white;
-    margin: 10px auto 20px;
+    margin: 10px auto 20px; 
     transition: opacity 0.4s;
     max-width: 100%;
     border-radius: 50%;
@@ -82,7 +82,7 @@ button[type="next"] {
 
 button[type="submit"]:hover,
 button[type="submit"]:focus {
-    background-color: aquamarine;
+    background-color: rgb(97, 5, 97);
     -webkit-transition: background 0.1s;
     -moz-transition: background 0.1s;
     -o-transition: background 0.1s;
@@ -99,8 +99,8 @@ button[type="submit"]:focus {
 .signup-form a {
     color: #999;
     text-decoration: none;
-    /* border-bottom: 1px solid #bbb;
- */}
+    border-bottom: 1px solid #bbb;
+ }
 
 .signup-form a:hover {
     border-color: #999;

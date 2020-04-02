@@ -7,17 +7,19 @@ const myQuestions = [
             c: "JavaScript strings are used for storing and manipulating text",
             d: "All of the above"
         },
-        correctAnswer: "c"
+        correctAnswer: "c",
+        correctAnswerResult: "JavaScript strings are used for storing and manipulating text"
     },
     {
-        question: "Inside which HTML element do we put the JavaScript?",
+        question: "How do you find the number with the highest value of x and y?",
         answers: {
-            a: "< JavaScript>",
-            b: "< scripting>" ,
-            c: "< script>",
-            d: "< js>"
+            a:  "top(x,y)",
+            b:  "Math.celi(x,y)" ,
+            c:  "Math.max(x,y)",
+            d:  "celi(x,y)"
         },
-        correctAnswer: "c"
+        correctAnswer: "c",
+        correctAnswerResult: "Math.max(x,y)"
     },
     {
         question: "How do you write 'Hello World' in an alert box?",
@@ -27,7 +29,8 @@ const myQuestions = [
             c: "alert('Hello World')",
             d: "All of the above"
         },
-        correctAnswer: "c"
+        correctAnswer: "c",
+        correctAnswerResult: "alert('Hello World')"
     },
     {
         question: "Where is the correct place to insert a JavaScript? ",
@@ -44,20 +47,22 @@ const myQuestions = [
         answers: {
             a: "Function:myfunction",
             b: "function myfunction()",
-            c: " Both a and b ",
-            d: " None of the above"
+            c: "Both a and b ",
+            d: "None of the above"
         },
-        correctAnswer: "b"
+        correctAnswer: "b",
+        correctAnswerResult: "function myfunction()"
     },
     {
         question: "How do you call a function named 'myFunction'?",
         answers: {
-            a: " call function myfunction",
-            b: " call myfunction",
-            c: " myFunction() ",
-            d: "Both a and b"
+            a: "call function myfunction",
+            b: "call myfunction",
+            c: "myFunction()",
+            d: "a and b"
         },
-        correctAnswer: "c"
+        correctAnswer: "c",
+        correctAnswerResult: "myFunction()"
     },
     {
         question: "How to write an IF statement in JavaScript?",
@@ -67,27 +72,30 @@ const myQuestions = [
             c: "if (i === 5)",
             d: "None of the above"
         },
-        correctAnswer: "c"
+        correctAnswer: "c",
+        correctAnswerResult: "if (i === 5)"
     },
     {
         question: "How to write an IF statement for executing some code if  i  is NOT equal to 5?",
         answers: {
-            a: " if i =! 5 then ",
-            b: " if (i<>5)",
-            c: " if (i != 5)",
+            a: "if i =! 5 then ",
+            b: "if (i<>5)",
+            c: "if (i != 5)",
             d: "All of the above"
         },
-        correctAnswer: "c"
+        correctAnswer: "c",
+        correctAnswerResult: "if (i != 5)"
     },
     {
         question: " What is the correct way to write a JavaScript array?",
         answers: {
-            a: " var color = red, blue, green ",
-            b: " var color = [ red, blue, green] ",
-            c: " let color = ' red, blue, green ' ",
-            d: "All of the above"
+            a: "var color = red, blue, green ",
+            b: "var color = [ red, blue, green] ",
+            c: "let color = ' red, blue, green ' ",
+            d: "a and c"
         },
-        correctAnswer: "b"
+        correctAnswer: "b",
+        correctAnswerResult: "var color = [ red, blue, green] "
     },
     {
         question: "What is a function?",
@@ -97,37 +105,41 @@ const myQuestions = [
             c: "An action that may be performed on an object",
             d: "A container for a data value"
         },
-        correctAnswer: "a"
+        correctAnswer: "a",
+        correctAnswerResult: "A block of code designed to perform a specific task or calculate a value"
     },
     {
-        question: "How does a WHILE loop start?",
+        question: "What is the correct JavaScript syntax for opening a new window called w2",
         answers: {
-            a: " while i = 1 to 10",
-            b: " while ( i<= 10, i++)",
-            c: "while(i > 10)",
-            d: "while (i <= 10)"
+            a: "w2 = window.new('http://www.thinkful.com')",
+            b: "w2 = window.create('http://www.thinkful.com')",
+            c: "a and b",
+            d: "w2 = window.open('http://www.thinkful.com')"
         },
-        correctAnswer: "d"
+        correctAnswer: "d",
+        correctAnswerResult: "w2 = window.open('http://www.thinkful.com')"
     },
     {
         question: "How does a FOR loop start?",
         answers: {
-            a: "for( i =0 ; i<=5; i++)",
+            a: "for( i=0 ; i<=5; i++)",
             b: "for (i=1)",
             c: "for(i =0, i< 5, i++)",
             d: "None of above"
         },
-        correctAnswer: "a"
+        correctAnswer: "a",
+        correctAnswerResult: "for( i=0 ; i<=5; i++)"
     },
     {
-        question: "How can you add a comment in a JavaScript?",
+        question: "How can you detect the client's browser name?",
         answers: {
-            a: " 'message' ",
-            b: " // message",
-            c: " <!--- message -----!> ",
-            d: " All of above "
+            a: "client.navName",
+            b: "browser.name",
+            c: "navigator.appName",
+            d: "All of above "
         },
-        correctAnswer: "b"
+        correctAnswer: "b",
+        correctAnswerResult: "browser.names",
     }
 
 ];
