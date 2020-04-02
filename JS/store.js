@@ -2,8 +2,8 @@ const myQuestions = [
     {
         question: "What is a string in JavaScript？",
         answers: {
-            a: "string that you can tie your notes to",
-            b: "a string that you can pluck and create musical sound",
+            a: "JavaScript string that you can tie your notes to",
+            b: "JavaScript string that you can pluck and create musical sound",
             c: "JavaScript strings are used for storing and manipulating text",
             d: "All of the above"
         },
@@ -40,7 +40,8 @@ const myQuestions = [
             c: "None of the above",
             d: "All of the above"
         },
-        correctAnswer: "a"
+        correctAnswer: "a",
+        correctAnswerResult: "The body section"
     },
     {
         question: "How do you create a function in JavaScript?",
