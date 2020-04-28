@@ -1,7 +1,7 @@
-### Javascript Quiz Application
+# Javascript Quiz Application
     
 
- How the application work:
+ ### How the application work:
  ------------------------------
 
 The following requirements cover what the app do, from the user's perspective.
@@ -16,7 +16,7 @@ The following requirements cover what the app do, from the user's perspective.
 8. Users can see their overall score at the end of the quiz. In other words, how many questions they got right out of the total questions asked.
 9. Users can able to start a new quiz.
 
- Technical requirements:
+ ### Technical requirements:
  -----------------------
 
 Quiz  App has :
@@ -27,6 +27,6 @@ Quiz  App has :
 4. Fully usable by keyboard.
 
 
-# Live link:
+## Live link:
   https://sultanak.github.io/Javascript-Quiz-App/
 
