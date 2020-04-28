@@ -1,7 +1,7 @@
-# Project Requirements
+### Javascript Quiz Application
     
 
- User experience requirements:
+ How the application work:
  ------------------------------
 
 The following requirements cover what the app do, from the user's perspective.
