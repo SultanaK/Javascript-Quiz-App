@@ -16,7 +16,11 @@ The following requirements cover what the app do, from the user's perspective.
 8. Users can see their overall score at the end of the quiz. In other words, how many questions they got right out of the total questions asked.
 9. Users can able to start a new quiz.
 
- ![alt home](https://github.com/SultanaK/QUIZAPP/blob/master/images/home.png)  
+ ![alt home](https://github.com/SultanaK/Javascript-Quiz-App/blob/master/images/home.png)  
+ 
+ ![alt home](https://github.com/SultanaK/Javascript-Quiz-App/blob/master/images/question.png)  
+ 
+ ![alt home](https://github.com/SultanaK/Javascript-Quiz-App/blob/master/images/result.png)  
  ### Technical requirements:
  -----------------------
 
