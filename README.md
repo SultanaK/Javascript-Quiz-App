@@ -1,5 +1,6 @@
-# Javascript Quiz Application
-    
+# Javascript Quiz Application 
+Javascript Quiz App is a fun new way to practise, improve, and test your Javascript skills, and test yourself in a truly.
+
 
  ### How the application work:
  ------------------------------
@@ -24,7 +25,7 @@ The following requirements cover what the app do, from the user's perspective.
  ### Technical requirements:
  -----------------------
 
-Quiz  App has :
+### Quiz  App has :
 
 1. Render answer choices in a form.
 2. Use semantic HTML, along with CSS and jQuery.
