@@ -5,8 +5,6 @@ Javascript Quiz App is a fun new way to practise, improve, and test your Javascr
  ### How the application work:
  ------------------------------
 
-The following requirements cover what the app do, from the user's perspective.
-
 1. The starting screen has a button that users can click to start the quiz.
 2. Users can prompted through a series of at least 5 multiple choice questions that they can answer.
 3. Users can asked questions 1 after the other.
@@ -22,7 +20,7 @@ The following requirements cover what the app do, from the user's perspective.
  ![alt home](https://github.com/SultanaK/Javascript-Quiz-App/blob/master/images/question.png)  
  
  ![alt home](https://github.com/SultanaK/Javascript-Quiz-App/blob/master/images/result.png)  
- ### Technical requirements:
+
  -----------------------
 
 ### Quiz  App has :
@@ -32,7 +30,8 @@ The following requirements cover what the app do, from the user's perspective.
 3. Responsive.
 4. Fully usable by keyboard.
 
-
+### Technology:
+HTML5, CSS3 and jQuery.
 ## Live link:
   https://sultanak.github.io/Javascript-Quiz-App/
 
