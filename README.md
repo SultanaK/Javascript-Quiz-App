@@ -1,5 +1,5 @@
 # Javascript Quiz Application 
-Javascript Quiz App is a fun new way to practise, improve, and test your Javascript skills, and test yourself in a truly.
+Javascript Quiz App is a fun new way to practice, improve, and test your Javascript skills, and test yourself in a truly.
 
 
  ### How the application work:
