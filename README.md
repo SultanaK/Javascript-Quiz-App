@@ -1,6 +1,8 @@
 # Javascript Quiz Application 
-Javascript Quiz App is a fun new way to practice, improve, and test your Javascript skills, and test yourself in a truly.
+Welcome to "Javascript Quiz App with HTML, CSS, and Jquery". Javascript Quiz App is a fun new way to practice, improve, and test your Javascript skills, and test yourself in a truly.
 
+### Purpose
+The purpose of this quiz isn't to be a brain-buster. It is meant for recruiters to present to front-end developer candidates.
 
  ### How the application work:
  ------------------------------
